@@ -41,11 +41,12 @@ Run *main.html* using a web server (for example, Web Server for Chrome)
  
  * To use pre-trained models(ex. mobilenet) we just import and use it:
  ```
- <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>    mobilenet.load().then(model => {
+ <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script>  
+ 
+ mobilenet.load().then(model => {
         model.classify(img).then(predictions => {
             console.log(predictions);})}
  ```
  * There are a lot of cool pre-trained models: [link](https://github.com/tensorflow/tfjs-models)
- * 
  
             
