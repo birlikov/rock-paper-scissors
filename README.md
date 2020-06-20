@@ -36,8 +36,8 @@ Run *main.html* using a web server (for example, Web Server for Chrome)
  
  * Use your saved model in js:
  
- ```const MODEL_URL = 'http://127.0.0.1:8887//path-to-you-newly-converted-model.json';
- 
+ ```
+    const MODEL_URL = 'http://127.0.0.1:8887//path-to-you-newly-converted-model.json';
     const model = await tf.loadLayersModel(MODEL_URL)
     console.log(model.summary());
     const result = model.predict(input);
@@ -52,5 +52,3 @@ Run *main.html* using a web server (for example, Web Server for Chrome)
             console.log(predictions);})}
  ```
  * There are a lot of cool pre-trained models: [link](https://github.com/tensorflow/tfjs-models)
- 
-            
